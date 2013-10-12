@@ -1,0 +1,45 @@
+*{
+
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background: #eee;
+	font: 16px/1,5 verdana, arial, sans-serif;
+	padding: 40px;
+}
+h1, h2, h3, h4, h5, h6, {
+
+	padding-bottom: 20px;
+
+}
+p, ul, ol{
+
+	padding-bottom: 10px;
+}
+ul, ol{
+
+	padding-left: 40px;
+}
+ul li {
+	list-style-type:circle;
+	padding-top: 0.5em;
+}
+ul li ul li {
+
+	list-style-type: square;
+}
+ul li ul li ul li{
+
+	list-style-type: disc;
+}
+
+ol li, ul ol li {
+	list-style-type:decimal;
+}
+ol li, ul li ol li ol li {
+	list-style-type: lower-roman;
+}
+ol li ol li ol li, ul li ol li ol li{
+	list-style-type: lower-alpha;
